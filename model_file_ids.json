@@ -1,14 +1,13 @@
 {
-    "Linear": "1lPND_L6YwD2anOcLGc5PLEf4f8Wpqnmr",
-    "Ridge": "1kNHuWRRHfXdNUarXxSjfW3rSKk2obVFw",
-    "Lasso": "1prpvc9YIJakupZcszP73EJj6khlCz2jn",
-    "DecisionTree": "1O8w8-tOItOmsuFbaqdwpRJ0YePs6w3he",
-    "RandomForest": "1vKeYrfVRIuiL-Fro4YrTooG14aVcXHdT",
-    "GradientBoost": "1m9ukt2yCmmrHWO6skGlfMoGGejTeKkKR",
-    "AdaBoost": "1W_Yu8wFcR-zafqk7Z6VVYqyH48-pLsPp",
-    "SVR": "1z8HPpfTnV_zPttcJyXVECMDgn-g6cawv",
-    "KNN": "141hYc6RpoVrX7tcP_uk2hhI54Tm4zDvn",
-    "MLP": "1t952ZaU-NGuenpjodYlZuZ_D7wXn7U0D",
-    "scaler": "10mkUqLkUFraFvnu4bHj19VrIAza63SBP"
-  }
-  
+  "Linear": "1B290Q-1y9cwrkNy_6BZpaa6lyK7B7mCS",
+  "ExtraTrees": "17b9u2wCQLA_aB8rlWd8O1oJy5NOPo16q",
+  "LGBM": "16VohfT6jPJOaZw6_gC9vP4EbmS2KADRj",
+  "RandomForest": "1q9O5e9iW8xooS-WYFXIBkmK_4KLQYop-",
+  "KNN": "1FDgzcEzGf9Zmq2Sw69_MMGBahC5C2fQK",
+  "XGB": "18NnKBD2_O1bu8E-D3HV8XYNZTMPQRVw0",
+  "Ridge": "1ByA3Q7UkZXN1DWDKvHoQrlOgeoyufU0v",
+  "Lasso": "1Q9DJgjkZLifvmkLQrzxB2c3cv6U8jlDa",
+  "DecisionTree": "16XUMNqfoXuMPGuQBjHIO_YBo1vsIvlMS",
+  "scaler": "1UPREse6Is9gVbtT1ATbORpv6g8cMk3gQ"
+}
+

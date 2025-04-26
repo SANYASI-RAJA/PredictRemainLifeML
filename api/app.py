@@ -1,7 +1,6 @@
 # python -m uvicorn api.app:app --reload
 
 
-
 from fastapi import FastAPI
 from pydantic import BaseModel
 import joblib
@@ -12,12 +11,12 @@ import joblib
 import gdown
 from fastapi.middleware.cors import CORSMiddleware
 
-# Add this right after `app = FastAPI()`
+
 
 app = FastAPI()
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # Or ["http://localhost:3000"]
+    allow_origins=["*"],  
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -25,9 +24,9 @@ app.add_middleware(
 
 
 # Best model combination
-best_bitset = '0010000000'
-model_names = ['Linear', 'Ridge', 'Lasso', 'DecisionTree', 'RandomForest',
-               'GradientBoost', 'AdaBoost', 'SVR', 'KNN', 'MLP']
+best_bitset = '011100000'
+model_names = ['Linear', 'ExtraTrees', 'LGBM', 'RandomForest', 'KNN', 'XGB', 'Ridge', 'Lasso', 'DecisionTree']
+
 selected_model_names = [model_names[i] for i, bit in enumerate(best_bitset) if bit == '1']
 selected_model_names.append('scaler')  # also include scaler
 

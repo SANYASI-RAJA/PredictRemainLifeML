@@ -7,3 +7,5 @@ joblib
 fastapi
 uvicorn
 gdown
+xgboost
+lightgbm
